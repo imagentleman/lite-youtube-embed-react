@@ -2,6 +2,16 @@
   "name": "lite-youtube-embed-react",
   "version": "1.0.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/lite-youtube-embed-react.cjs",
+  "module": "./dist/lite-youtube-embed-react.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lite-youtubue-embed-react.js",
+      "require": "./dist/lite-youtube-embed-react.umd.cjs"
+    },
+    "./style.css": "./dist/lite-youtube-embed-react.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imagentleman/lite-youtube-embed-react.git"

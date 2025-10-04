@@ -21,6 +21,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:site": "tsc -b && vite build --config vite.config.site.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

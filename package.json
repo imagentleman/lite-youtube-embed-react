@@ -1,0 +1,22 @@
+{
+  "name": "lite-youtube-embed-react",
+  "version": "1.0.0",
+  "description": "React wrapper for https://github.com/paulirish/lite-youtube-embed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagentleman/lite-youtube-embed-react.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/imagentleman/lite-youtube-embed-react/issues"
+  },
+  "homepage": "https://github.com/imagentleman/lite-youtube-embed-react#readme",
+  "dependencies": {
+    "lite-youtube-embed": "^0.3.3"
+  }
+}
